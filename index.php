@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        echo "Hello<pr>\n";
+        echo "Hello hello<pr>\n";
         echo "Date is: " . date('j-m-y, h:i:s');
     ?>
 </body>
