@@ -1,9 +1,3 @@
-<?php
-/*
- * Plugin Name:       Kalkulator pro vyhodnoceni Willimsova syndromu
- */
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

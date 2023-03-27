@@ -7,7 +7,7 @@
         <main>
             <div class="test">
                 <h1>TLACITKO PRO TEST</h1>
-                <a href="kalkulator.php?n=1" class="start">Spustit</a>
+                <p><a href="kalkulator.php?n=1" class="start">Spustit</a></p>
             </div>
         </main>
 
