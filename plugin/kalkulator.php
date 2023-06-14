@@ -45,7 +45,7 @@ if(isset($_POST['submit'])) {
 <body>
 <header>
             <div class="container">
-                <h1>Kalkulátor pro vyhodnocení Willimsova syndromu</h1>
+                <h1>Kalkulátor pro vyhodnocení Williamsova syndromu</h1>
             </div>
         </header>
     <main>
@@ -138,7 +138,7 @@ if(isset($_POST['submit'])) {
     </main>
     <footer>
             <div class="container">
-                ČVUT 2023, Kalkulátor pro vyhodnocení Willimsova syndromu
+                ČVUT 2023, Kalkulátor pro vyhodnocení Williamsova syndromu
         </footer>
 </body>
 </html>

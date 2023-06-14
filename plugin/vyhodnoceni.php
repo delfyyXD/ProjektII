@@ -26,7 +26,7 @@ if(isset($_POST['subvyhodnoceni'])) {
 <body>
     <header>
             <div class="container">
-                <h1>Kalkulátor pro vyhodnocení Willimsova syndromu</h1>
+                <h1>Kalkulátor pro vyhodnocení Williamsova syndromu</h1>
             </div>
         </header>
     <main>
@@ -318,7 +318,7 @@ if(isset($_POST['subvyhodnoceni'])) {
     </main>
     <footer>
             <div class="container">
-                ČVUT 2023, Kalkulátor pro vyhodnocení Willimsova syndromu
+                ČVUT 2023, Kalkulátor pro vyhodnocení Williamsova syndromu
                 <br>
                 Copyright © <a href="https://www.spolek-willik.cz/wp-content/uploads/2018/09/Williams-syndrom_cz_Pediatrics.pdf">spolek-willik.cz</a>
         </footer>

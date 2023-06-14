@@ -2,13 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Kalkulator pro vyhodnocení Willimsova syndromu</title>
+        <title>Kalkulator pro vyhodnocení Williamsova syndromu</title>
         <link rel="stylesheet" href="style.css" type="text/css"/>
     </head>
     <body>
         <header>
             <div class="container">
-                <h1>Kalkulátor pro vyhodnocení Willimsova syndromu</h1>
+                <h1>Kalkulátor pro vyhodnocení Williamsova syndromu</h1>
             </div>
         </header>
         <main>
@@ -20,7 +20,7 @@
         </main>
         <footer>
             <div class="container">
-                ČVUT 2023, Kalkulátor pro vyhodnocení Willimsova syndromu
+                ČVUT 2023, Kalkulátor pro vyhodnocení Williamsova syndromu
         </footer>
 
     </body>
