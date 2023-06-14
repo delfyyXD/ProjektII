@@ -319,6 +319,8 @@ if(isset($_POST['subvyhodnoceni'])) {
     <footer>
             <div class="container">
             CTU 2023, Calculator for evaluating Williams syndrome
+            <br>
+                Copyright © <a href="https://publications.aap.org/pediatrics/article/145/2/e20193761/68224/Health-Care-Supervision-for-Children-With-Williams">PEDIATRICS</a>
         </footer>
 </body>
 </html>

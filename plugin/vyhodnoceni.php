@@ -319,6 +319,8 @@ if(isset($_POST['subvyhodnoceni'])) {
     <footer>
             <div class="container">
                 ČVUT 2023, Kalkulátor pro vyhodnocení Willimsova syndromu
+                <br>
+                Copyright © <a href="https://www.spolek-willik.cz/wp-content/uploads/2018/09/Williams-syndrom_cz_Pediatrics.pdf">spolek-willik.cz</a>
         </footer>
 </body>
 </html>
