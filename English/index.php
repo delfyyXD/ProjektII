@@ -2,25 +2,25 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Kalkulator pro vyhodnocení Willimsova syndromu</title>
+        <title>Calculator for evaluating Williams syndrome</title>
         <link rel="stylesheet" href="style.css" type="text/css"/>
     </head>
     <body>
         <header>
             <div class="container">
-                <h1>Kalkulátor pro vyhodnocení Willimsova syndromu</h1>
+                <h1>Calculator for evaluating Williams syndrome</h1>
             </div>
         </header>
         <main>
             <div class="container">
-                <h2>Vyzkoušejte si test</h2>
-                <p><a href="kalkulator.php?n=1" class="start">Spustit</a></p>
-                <p><a href="../English/index.php" class="start">English version</a></p>
+                <h2>Try the test</h2>
+                <p><a href="kalkulator.php?n=1" class="start">Start the test</a></p>
+                <p><a href="../plugin/index.php" class="start">Česká verze</a></p>
             </div>
         </main>
         <footer>
             <div class="container">
-                ČVUT 2023, Kalkulátor pro vyhodnocení Willimsova syndromu
+                CTU 2023, Calculator for evaluating Williams syndrome
         </footer>
 
     </body>

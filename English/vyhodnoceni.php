@@ -20,17 +20,17 @@ if(isset($_POST['subvyhodnoceni'])) {
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Vyhodnocení</title>
+        <title>Result</title>
         <link rel="stylesheet" href="style.css" type="text/css"/>
     </head>
 <body>
     <header>
             <div class="container">
-                <h1>Kalkulátor pro vyhodnocení Willimsova syndromu</h1>
+                <h1>Calculator for evaluating Williams syndrome</h1>
             </div>
         </header>
     <main>
-        <h1>Výsledek testu</h1>
+        <h1>Test result</h1>
         <form method="post">
 
         <?php
@@ -67,7 +67,7 @@ if(isset($_POST['subvyhodnoceni'])) {
         }
 
         else {
-            echo "Nevyplnena 1. otazka <br>";
+            echo "Unfilled 1st question <br>";
         }
 
         if(isset($_POST["odpoved2"])) {
@@ -104,7 +104,7 @@ if(isset($_POST['subvyhodnoceni'])) {
         }
 
         else {
-            echo "Nevyplnena 2. otazka <br>";
+            echo "Unfilled 2nd question <br>";
         }
 
         if(isset($_POST["odpoved3"])) {
@@ -174,7 +174,7 @@ if(isset($_POST['subvyhodnoceni'])) {
         }
 
         else {
-            echo "Nevyplnena 3. otazka <br>";
+            echo "Unfilled 3rd question <br>";
         }
 
         if(isset($_POST["odpoved4"])) {
@@ -197,7 +197,7 @@ if(isset($_POST['subvyhodnoceni'])) {
         }
 
         else {
-            echo "Nevyplnena 4. otazka <br>";
+            echo "Unfilled 4th question <br>";
         }
 
         if(isset($_POST["odpoved5"])) {
@@ -225,7 +225,7 @@ if(isset($_POST['subvyhodnoceni'])) {
         }
 
         else {
-            echo "Nevyplnena 5. otazka <br>";
+            echo "Unfilled 5th question <br>";
         }
 
         if(isset($_POST["odpoved6"])) {
@@ -262,7 +262,7 @@ if(isset($_POST['subvyhodnoceni'])) {
         }
 
         else {
-            echo "Nevyplnena 6. otazka <br>";
+            echo "Unfilled 6th question <br>";
         }
 
         if(isset($_POST["odpoved7"])) {
@@ -287,38 +287,38 @@ if(isset($_POST['subvyhodnoceni'])) {
         }
 
         else {
-            echo "Nevyplnena 7. otazka <br><br>";
+            echo "Unfilled 7th question <br><br>";
         }
 
-        echo "Počet bodů: " .$vysledek. "<br>";
+        echo "Points: " .$vysledek. "<br>";
 
         if($vysledek<3) {
-            echo "Diagnóza Williamsova syndromu je nepravděpodobná.<br><br>";
+            echo "A diagnosis of Williams syndrome is unlikely.<br><br>";
             $willik="Ne";
         }
         else if($vysledek>=3) {
-            echo "Je třeba zvážit provedení FISH testu.<br><br>";
+            echo "A FISH test should be considered.<br><br>";
             $willik="Ano";
         }
 
         ?>
 
-            <p>Email: <input type="email" name="email2" placeholder="Zadejte svůj email" autocomplete="off"/> </p>
-            <p>Počet bodů: <input type="number" name="vysledek2" placeholder="Zadejte počet bodů" autocomplete="off"/> </p>
-            <p>Zvažujete provedení FISH testu: Ano<input type="checkbox" name="willik2[]" value="Ano"/>
-                                                Ne<input type="checkbox" name="willik2[]" value="Ne"/></p>
+            <p>Email: <input type="email" name="email2" placeholder="Enter your email" autocomplete="off"/> </p>
+            <p>Points: <input type="number" name="vysledek2" placeholder="Enter the number of points" autocomplete="off"/> </p>
+            <p>Are you considering a FISH test: Yes<input type="checkbox" name="willik2[]" value="Ano"/>
+                                                No<input type="checkbox" name="willik2[]" value="Ne"/></p>
                                                 <br>
-        <input type="submit" class="start" value="odeslat vyhodnoceni" name="subvyhodnoceni"/>
+        <input type="submit" class="start" value="send result" name="subvyhodnoceni"/>
         <br><br><br> </form>
 
         <!-- <p>shodujete se v: %i/7 bodech ws</p> -->
-        <a href="kalkulator.php?n=1" class="start">Udělat si test znovu</a>
+        <a href="kalkulator.php?n=1" class="start">Take the test again</a>
         <br>
-        <a href="index.php" class="start">Hlavní strana</a>
+        <a href="index.php" class="start">Main page</a>
     </main>
     <footer>
             <div class="container">
-                ČVUT 2023, Kalkulátor pro vyhodnocení Willimsova syndromu
+            CTU 2023, Calculator for evaluating Williams syndrome
         </footer>
 </body>
 </html>
